@@ -1,0 +1,141 @@
+.container{
+    margin: 0 auto;
+
+    padding: 20px 0;
+    width: 1320px;
+    max-width: 100%;
+
+
+}
+#dark-mode{
+    width: 50px !important;
+}
+
+header{
+    border-bottom: 2px solid #0000000E;
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.dark{
+    background: #202C36;
+    color: #fff;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+main{
+    .sartirofka{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        input{
+           display: inline-block;
+            border-radius: 10px;
+            padding: 0 40px;
+            width: 480px;
+            height: 56px;
+            top: 128px;
+            left: 90px;
+            gap: 0px;
+            opacity: 0px;
+            &:focus{
+                outline: none;
+            }
+            border: none !important;
+            border-bottom: 2px solid #0000000E;
+            box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.2);
+
+        }
+        .select{
+            width: 200px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 0 20px;
+            border: none !important;
+            border-bottom: 2px solid #0000000E;
+            box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.2);
+            
+            
+            top: 128px;
+            left: 90px;
+            gap: 0px;
+            opacity: 0px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+   
+}
+
+.dark header {
+    background-color: #2B3844;
+}
+.dark input , .dark select{
+    background-color: #2B3844;
+    color: #fff;
+}
+
+
+.cards {
+    justify-content: center;
+    // justify-content: space-between;
+    margin-top: 100px;
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   .card{
+    background-color: #0000000E;
+
+    h3 , p{
+        padding-left: 20px;
+
+    }
+    img{
+        max-height: 200px;
+        width: 264px ;
+        max-width: 100%;
+
+    }
+    width: 264px;
+   }
+}
+
+@media (max-width:500px){
+    input{
+        width: 350px !important;
+    }
+    .cards{
+       left: 0;
+       right: 0;
+    }
+    .sartirofka{
+        justify-content: center;
+
+        .select{
+           margin-top: 60px;
+        }
+    }
+    nav{
+        display: flex !important;
+    }
+}
+
+
+@media (max-width:370px){
+    .logo{
+    font-size: 14px;
+    }
+    input{
+        width: 343px;
+    }
+    .cards{
+       
+    }
+}

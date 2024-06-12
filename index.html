@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davlatlar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./versel.json">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="">
+                <div class="logo">Where in the world?</div>
+
+                <div class="dark-mode">
+                    <input type="checkbox" id="dark-mode">
+                    <label for="dark-mode">Dark Mode </label>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="sartirofka">
+                <input id="search" type="search" placeholder="Search for a country…">
+
+               
+                <select class="select" name="filter" id="filter">
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+
+            <div id="cards" class="cards">
+                
+            </div>
+           
+        </div>
+       
+       
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
